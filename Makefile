@@ -1,0 +1,2 @@
+TARGET=Einweisung_Buttonpresse
+include fablab-document/Makefile.include
