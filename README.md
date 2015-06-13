@@ -15,6 +15,7 @@ git clone --recursive git@github.com:fau-fablab/buttonpresse-einweisung.git
 Technische Details zum Buildserver siehe auf macgyver `/home/buildserver/README`
 
 [![Build Status](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/status.svg)](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/)
+[![TODOs](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/status-todos.svg)](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/)
 
 Lizenz
 ------
