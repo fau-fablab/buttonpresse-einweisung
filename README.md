@@ -3,7 +3,7 @@ Buttonpresse Einweisung
 
 Einweisung des [FAU FabLab](https://fablab.fau.de) in die [Buttonpresse](https://fablab.fau.de/tool/buttonpresse).
 
-Die neueste Version der Einweisung aus [github](https://github.com/fau-fablab/buttonpresse-einweisung) ist als PDF unter https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/Einweisung_Buttonpresse.pdf abrufbar.
+Die neueste Version der Einweisung aus [github](https://github.com/fau-fablab/buttonpresse-einweisung) ist als PDF unter https://brain.fablab.fau.de/build/buttonpresse-einweisung/Einweisung_Buttonpresse.pdf abrufbar.
 
 auschecken
 ----------
@@ -14,8 +14,8 @@ git clone --recursive git@github.com:fau-fablab/buttonpresse-einweisung.git
 
 Technische Details zum Buildserver siehe auf macgyver `/home/buildserver/README`
 
-[![Build Status](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/status.svg)](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/)
-[![TODOs](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/status-todos.svg)](https://user.fablab.fau.de/~buildserver/buttonpresse-einweisung/)
+[![Build Status](https://brain.fablab.fau.de/build/buttonpresse-einweisung/status.svg)](https://brain.fablab.fau.de/build/buttonpresse-einweisung/)
+[![TODOs](https://brain.fablab.fau.de/build/buttonpresse-einweisung/status-todos.svg)](https://brain.fablab.fau.de/build/buttonpresse-einweisung/)
 
 Lizenz
 ------
