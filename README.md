@@ -1,4 +1,4 @@
-Buttonpresse Einweisung
+Buttonpressen-Einweisung
 =======================
 
 Einweisung des [FAU FabLab](https://fablab.fau.de) in die [Buttonpresse](https://fablab.fau.de/tool/buttonpresse/).
@@ -6,9 +6,12 @@ Einweisung des [FAU FabLab](https://fablab.fau.de) in die [Buttonpresse](https:/
 Inhalt
 ------
 
-- Vorlage: Maße für 56-mm-Buttons, Motiv ausstanzen
-- Pressen Schritt für Schritt (Presse-Unterteil, Markierungen 1 und 2, Messingring)
+- Vorlage: 56 mm Außendurchmesser der Papiervorlage, etwa 42 mm Motivfläche, Motiv ausstanzen
+- Pressen Schritt für Schritt: Motiv und Folie (Markierung 1), Rückseite (Markierung 2)
 - Bezahlen der Buttonrohlinge und Druckkosten
+
+Das PDF verwendet das gemeinsame FabLab-Dokumentlayout mit Titelblock,
+Versionsanzeige und verlinktem Inhaltsverzeichnis.
 
 Download
 --------

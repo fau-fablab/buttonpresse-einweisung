@@ -8,67 +8,89 @@
 \newcommand{\basedir}{fablab-document}
 \documentclass{\basedir/fablab-document}
 
-% \usepackage{fancybox} %ovale Boxen für Knöpfe - nicht mehr benötigt
-\usepackage{amssymb} % Symbole für Knöpfe
-\usepackage{subfigure,caption}
+\usepackage{caption}
+\usepackage{textcomp}
+\usepackage{float}
+\usepackage{xurl}
 
-\usepackage{marvosym} % für Briefumschlag-Symbol
-\usepackage{eurosym}
-\usepackage{tabularx} % Tabellen mit bestimmtem Breitenverhältnis der Spalten
-\usepackage{wrapfig} % Textumlauf um Bilder
-\renewcommand{\texteuro}{\euro}
-
-\linespread{1.1}
-\setlength{\parskip}{0.5em}
-\date{August 2013}
-\author{}
-\fancyfoot[L]{kontakt@fablab.fau.de}
-\title{Anleitung Buttonpresse}
+\date{\today}
+\InputIfFileExists{version}{}{\newcommand{\Version}{Entwurf \today}}
+\fancyfoot[R]{Version \Version}
+\author{kontakt@fablab.fau.de}
+\title{Einweisung Buttonpresse}
 
 \begin{document}
-\vbox{ % Hack, damit Überschrift nicht soviel Platz verbraucht und alles auf 1 Seite passt
-\vspace{-3em}
 \maketitle
-\vspace{-3em}
-}
-\section{Vorlage}
-
-Papiervorlage: 56mm Durchmesser außen, nutzbare Fläche etwa 42mm, dazu kommen einige Millimeter seitlicher Rand. Farbige Hintergründe bis mindestens 50mm fortsetzen, damit es keinen weißen Rand gibt!
-
-\begin{figure}[h]
-\caption{Vorlage für ein selbstgestanztes Motiv}
 \begin{center}
-\includegraphics[scale=1]{img/motivvorlage.pdf}
+Motiv vorbereiten, Button pressen und bezahlen\\[1mm]
+{\small Version \Version}
 \end{center}
+
+Diese Einweisung erklärt die Maße der Papiervorlage und die beiden Pressvorgänge.
+Die Markierungen \textbf{1} und \textbf{2} am Unterteil der Presse zeigen dir,
+welche Seite für den jeweiligen Schritt oben liegen muss.
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis / Arbeitsablauf}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\clearpage
+
+\section{Vorlage vorbereiten}
+\subsection{Maße und Gestaltung}
+Die Papiervorlage hat außen einen Durchmesser von \textbf{56\,mm}.
+Die nutzbare Motivfläche beträgt etwa \textbf{42\,mm}; dazu kommen einige Millimeter seitlicher Rand.
+Farbige Hintergründe bis mindestens \textbf{50\,mm} fortsetzen, damit kein weißer Rand entsteht.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{img/motivvorlage.pdf}
+\caption{Vorlage für ein selbstgestanztes Motiv}
 \end{figure}
 
-Mit der Stanze kannst du aus Papier die passenden 56mm Kreise ausstanzen. Dazu ein Stück Papier grob zuschneiden, einschieben und draufdrücken.
+\subsection{Papier ausstanzen}
+Mit der Stanze kannst du die passenden Papierkreise mit \textbf{56\,mm} Durchmesser ausstanzen.
+Schneide das Papier zunächst grob zu, schiebe es in die Stanze und drücke die Stanze herunter.
 
+\section{Button pressen}
+\subsection{Material bereitlegen}
+Du brauchst:
+\begin{itemize}
+ \item Buttonrohling: Unterteil mit Nadel und Oberteil (Metallkappe)
+ \item Folie
+ \item Ausgestanzte Papiervorlage
+\end{itemize}
 
-\section{Pressen}
-Benötigtes Material: Buttonrohling (Unterteil mit Nadel, Oberteil, Folie), ausgestanzte Papiervorlage
+\clearpage
+\subsection{Motiv und Folie einpressen: Markierung 1}
 \begin{enumerate}
-  \item Unterteil der Presse rausnehmen, so umdrehen, dass Markierung \textbf{1} oben, auf den Tisch stellen
-  \item Button-Oberteil (Metallkappe) in Pressen-Unterteil einlegen, umgebördelte Seite nach unten
-  \item passend ausgestanztes Papier lesbar drauf.
-  \item Folie drauf
-  \item Pressen-Unterteil wieder in Presse einsetzen.
-  \item Pressen-Unterteil so drehen, dass das Motiv richtig herum ist (nicht schräg), wenn man von vorne auf die Presse schaut.
-  \item Oberen Messingring so drehen, dass die Stifte  das halbrunde Metallteil berühren und nicht daran vorbeigehen.
-  \item Mit Kraft bis zum Anschlag zupressen. Halbfertiger Button bleibt oben im Werkzeug hängen.
-  \item Pressen-Unterteil entnehmen, umdrehen, sodass Markierung \textbf{2} oben
-  \item Button-Unterteil mit der (offenen Stelle der) Nadel nach unten einlegen
-  \item Pressen-Unterteil in Presse einsetzen und so drehen, dass die Nadel von links nach rechts verläuft und somit zur Ausrichtung des Motivs passt.
-  \item Oberen Messingring um 90\textdegree{} drehen, sodass der Stift nicht das Metall berührt, sondern daran vorbeigeht
-  \item Mit Kraft bis zum Anschlag zupressen.
-  \item Fertigen Button entnehmen und bezahlen.
+ \item Nimm das Unterteil der Presse heraus. Drehe es so um, dass die Markierung \textbf{1} oben liegt, und stelle es auf den Tisch.
+ \item Lege das Button-Oberteil (Metallkappe) mit der umgebördelten Seite nach unten in das Unterteil der Presse.
+ \item Lege die ausgestanzte Papiervorlage lesbar darauf.
+ \item Lege die Folie darauf.
+ \item Setze das Unterteil der Presse wieder in die Presse ein.
+ \item Drehe es so, dass das Motiv richtig herum und nicht schräg steht, wenn du von vorne auf die Presse schaust.
+ \item Drehe den oberen Messingring so, dass die Stifte das halbrunde Metallteil berühren und nicht daran vorbeigehen.
+ \item Presse mit Kraft bis zum Anschlag zu. Der halbfertige Button bleibt oben im Werkzeug hängen.
+\end{enumerate}
+
+\subsection{Rückseite befestigen: Markierung 2}
+\begin{enumerate}
+\setcounter{enumi}{8}
+ \item Nimm das Unterteil der Presse heraus und drehe es um, sodass die Markierung \textbf{2} oben liegt.
+ \item Lege das Button-Unterteil so ein, dass die offene Stelle der Nadel nach unten zeigt.
+ \item Setze das Unterteil der Presse ein. Drehe es so, dass die Nadel von links nach rechts verläuft und zur Ausrichtung des Motivs passt.
+ \item Drehe den oberen Messingring um \textbf{90\textdegree{}}, sodass der Stift nicht das Metall berührt, sondern daran vorbeigeht.
+ \item Presse mit Kraft bis zum Anschlag zu.
+ \item Nimm den fertigen Button heraus und bezahle ihn.
 \end{enumerate}
 
 \section{Bezahlen}
-Die Buttonrohlinge kosten Geld, der Preis steht auf der Packung. Bitte gleich bezahlen.
+Die Buttonrohlinge kosten Geld. Der Preis steht auf der Packung. Bitte gleich bezahlen.
 
-Wenn ihr die Vorlage im FabLab ausgedruckt habt, kommen noch die Druckkosten dazu, die am Drucker stehen.
+Wenn du die Vorlage im FabLab ausgedruckt hast, kommen die Druckkosten dazu.
+Die Preise stehen am Drucker.
 
+\clearpage
 \ccLicense{buttonpresse-einweisung}{Einweisung Buttonpresse}
 
 \end{document}
